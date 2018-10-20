@@ -1,3 +1,3 @@
-FROM php:7.2
+FROM nginx:latest
 # copy current index.php into a documentroot
-COPY ./index.php /var/www/html/
+COPY ./index.php /usr/share/nginx/html
