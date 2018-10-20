@@ -1,3 +1,3 @@
-FROM php:5.6.22-apache
+FROM php:7.2
 # copy current index.php into a documentroot
 COPY ./index.php /var/www/html/
