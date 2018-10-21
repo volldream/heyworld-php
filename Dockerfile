@@ -7,3 +7,5 @@ COPY heyworld.pem /etc/nginx/
 
 EXPOSE 8080
 EXPOSE 443
+
+CMD ["/bin/sh"]
