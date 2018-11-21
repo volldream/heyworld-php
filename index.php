@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("mysql", "trumpet", "rumpet123", "trumpet");
+$conn = mysqli_connect("mysql", "trumpet", "trumpet123", "trumpet");
 
 if (!$conn) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
