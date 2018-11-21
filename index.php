@@ -12,7 +12,7 @@ echo "Success: A proper connection to MySQL was made! The my_db database is grea
 echo "Host information: " . mysqli_get_host_info($conn) . PHP_EOL;
 
 
-$sql = "CREATE TABLE test (
+$sql = "CREATE TABLE  IF NOT EXISTS test (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 firstname VARCHAR(30) NOT NULL,
 lastname VARCHAR(30) NOT NULL,
