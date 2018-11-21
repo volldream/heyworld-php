@@ -1,5 +1,5 @@
 FROM trumpetbuild.mielse.com:5000/backend:latest
-
+USER root
 #EXPOSE 3306
 #EXPOSE 9200
 #EXPOSE 5672
